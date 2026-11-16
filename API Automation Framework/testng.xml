@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- A "suite" groups the tests Maven/TestNG will run.
+     verbose="2" prints a bit more detail in the console. -->
+<suite name="API Automation Suite" verbose="2">
+
+    <test name="Posts API Tests">
+        <classes>
+            <class name="com.api.tests.PostsTest"/>
+            <class name="com.api.tests.UsersTest"/>
+            <class name="com.api.tests.NegativeTest"/>
+        </classes>
+    </test>
+
+</suite>
