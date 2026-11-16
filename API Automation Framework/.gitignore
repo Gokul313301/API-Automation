@@ -1,0 +1,12 @@
+# Maven build output
+target/
+
+# TestNG output
+test-output/
+
+# IntelliJ (keep .idea out of version control if you prefer)
+*.iml
+
+# OS files
+Thumbs.db
+.DS_Store
